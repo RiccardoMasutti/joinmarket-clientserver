@@ -3,8 +3,8 @@
 import pytest
 import struct
 from jmclient import load_test_config, jm_single, get_irc_mchannels
-from jmclient.configure import (get_config_irc_channel, get_p2sh_vbyte,
-                                get_p2pk_vbyte, get_blockchain_interface_instance)
+from jmclient.configure import (get_config_irc_channel,
+                                get_blockchain_interface_instance)
 
 
 def test_attribute_dict():
